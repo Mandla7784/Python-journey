@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Mouse",
+    "description": "A high-precision wireless mouse with ergonomic design.",
+    "price": 29.99,
+    "category": "Electronics",
+    "stock": 150
+  },
+  {
+    "id": 2,
+    "title": "Bluetooth Headphones",
+    "description": "Noise-canceling over-ear headphones with 30 hours of battery life.",
+    "price": 89.99,
+    "category": "Electronics",
+    "stock": 75
+  },
+  {
+    "id": 3,
+    "title": "USB-C Laptop Charger",
+    "description": "Fast charging USB-C charger compatible with most laptops.",
+    "price": 19.99,
+    "category": "Accessories",
+    "stock": 200
+  },
+  {
+    "id": 4,
+    "title": "Office Desk",
+    "description": "A spacious office desk with a modern design.",
+    "price": 199.99,
+    "category": "Furniture",
+    "stock": 50
+  },
+  {
+    "id": 5,
+    "title": "Ergonomic Office Chair",
+    "description": "An adjustable office chair designed for maximum comfort.",
+    "price": 129.99,
+    "category": "Furniture",
+    "stock": 80
+  },
+  {
+    "id": 6,
+    "title": "Water Bottle",
+    "description": "Reusable stainless steel water bottle with double insulation.",
+    "price": 24.99,
+    "category": "Home & Kitchen",
+    "stock": 300
+  }
+]
