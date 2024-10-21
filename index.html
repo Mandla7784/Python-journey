@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: whitesmoke;
+      }
+      .product {
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+      }
+      img {
+        width: 200px;
+      }
+      .hidden {
+        display: none;
+      }
+      .remove-btn {
+        background-color: rgb(230, 26, 43);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a id="product-link" href="#product">Product</a>
+
+      <a id="cart-link" href="#cart">Cart</a>
+    </nav>
+    <div class="product-page">
+      <h2>Product</h2>
+
+      <div class="product">
+        <img
+          src="https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg"
+        />
+        <button id="btn-add">Add to Cart</button>
+      </div>
+    </div>
+    <div class="cart hidden">
+      <p>Your cart is Empty</p>
+      <div class="product-list"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
